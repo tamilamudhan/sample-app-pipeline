@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: golang, tag: 1.11.5-wheezy}
+  source: {repository: golang, tag: 1.4-wheezy}
 
 inputs:
 - name: concourse-demo-app-master
